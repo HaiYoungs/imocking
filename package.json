@@ -1,0 +1,15 @@
+{
+  "name": "imoc",
+  "version": "1.0.0",
+  "description": "A mock data project for developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-router": "^8.0.8"
+  }
+}
