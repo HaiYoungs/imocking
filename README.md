@@ -37,6 +37,28 @@
 ##### 5. 注意事项
 为了保证模拟过程顺利，尽量使用与示例相同结构的数据
 ![示例文件结构](https://github.com/HaiYoungs/imocking/blob/master/ScreenShots/json.png)
+```
+{
+    "length": 0,
+    "currentId": 0, 
+    "data": [
+        {
+            "id": 1,
+            "name": "张同学", 
+            "age": 15,
+            "sex": "男",
+            "height": 180
+        },
+        {
+            "id": 2,
+            "name": "李同学", 
+            "age": 16,
+            "sex": "男",
+            "height": 169
+        }
+    ]
+}
+```
 在新建一个自定义文件时，这些条件必须满足：
 1. 文件后缀名为 .json
 2. 字段 length、currentId、data 是必不可少的，且
