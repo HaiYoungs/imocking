@@ -1,0 +1,27 @@
+{
+    "length": 0,
+    "currentId": 0, 
+    "data": [
+        {
+            "id": 1,
+            "name": "张同学", 
+            "age": 15,
+            "sex": "男",
+            "height": 180
+        },
+        {
+            "id": 2,
+            "name": "李同学", 
+            "age": 16,
+            "sex": "男",
+            "height": 169
+        },
+        {
+            "id": 1,
+            "name": "王同学", 
+            "age": 22,
+            "sex": "男",
+            "height": 193
+        }
+    ]
+}
