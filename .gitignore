@@ -1,2 +1,5 @@
 
 node_modules/
+mock/test.json
+mock/users.json
+mock/index.json
