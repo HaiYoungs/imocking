@@ -1,0 +1,549 @@
+{
+  "id": "86dff9b5-aead-44c8-9a77-85a82ff59d7f",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://www.jd.com",
+  "tests": [{
+    "id": "d283d094-944e-4b8b-aeaf-4ae841fa10b9",
+    "name": "test1",
+    "commands": [{
+      "id": "2615eecd-e68b-4c80-a80c-f7402919b0fc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1cec35b-9c53-432b-990d-f806fbf5d533",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1264x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68f507d8-1207-415b-875d-c6a0661033eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLUS会员",
+      "targets": [
+        ["linkText=PLUS会员", "linkText"],
+        ["css=.fore3 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'PLUS会员')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon11&flow_channel=pc')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLUS会员')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1807",
+      "windowTimeout": 2000
+    }, {
+      "id": "1c5c2123-9023-4b96-852d-edcabe6a64d8",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41d8bda0-15c4-49f0-b049-995c612cb9e6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1807}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09299120-9c2d-423c-b9d7-59242cf40115",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04c5cb9-0cdb-4c28-b44e-1b7ea8ba2eb1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b48bc2-fe47-459c-8984-b1a4a90beb23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=品牌闪购",
+      "targets": [
+        ["linkText=品牌闪购", "linkText"],
+        ["css=.fore4 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'品牌闪购')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://red.jd.com/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'品牌闪购')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3896",
+      "windowTimeout": 2000
+    }, {
+      "id": "a685c1d7-2e19-410d-84ee-dbdd983dbab8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3896}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7414da9e-5a82-49ee-9738-5c5bcf04a73d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bbd8387-e1f2-449f-955f-21b0585018f5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7f4fddd-f3f2-487f-a8a9-a46f901176c6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.fore5:nth-child(5)",
+      "targets": [
+        ["css=.fore5:nth-child(5)", "css:finder"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "42.92706298828125,16"
+    }, {
+      "id": "13e84be7-03a7-4b94-9ad5-a3568840a65f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.fore5:nth-child(5)",
+      "targets": [
+        ["css=.fore5:nth-child(5)", "css:finder"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "42.92706298828125,16"
+    }, {
+      "id": "c4dad5b8-1340-4cdd-b28e-2a800ebf2be0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.fore5:nth-child(5)",
+      "targets": [
+        ["css=.fore5:nth-child(5)", "css:finder"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "42.92706298828125,16"
+    }, {
+      "id": "2de7bebd-c3d7-4463-94c6-01d3fb579180",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fore5:nth-child(5)",
+      "targets": [
+        ["css=.fore5:nth-child(5)", "css:finder"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9f383b7-1a13-4aa4-a46a-fcaba64fbe80",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=拍卖",
+      "targets": [
+        ["linkText=拍卖", "linkText"],
+        ["css=.fore5 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'拍卖')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://paimai.jd.com/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "19.92706298828125,17"
+    }, {
+      "id": "704cd956-475d-4158-9a18-63ea117aeb1a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=拍卖",
+      "targets": [
+        ["linkText=拍卖", "linkText"],
+        ["css=.fore5 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'拍卖')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://paimai.jd.com/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "19.92706298828125,17"
+    }, {
+      "id": "ad6bca94-2864-4c0d-90dc-d51c4c38e24e",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=拍卖",
+      "targets": [
+        ["linkText=拍卖", "linkText"],
+        ["css=.fore5 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'拍卖')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://paimai.jd.com/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "19.92706298828125,17"
+    }, {
+      "id": "84b19196-65d0-4769-b9df-fa11e55aeb11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=拍卖",
+      "targets": [
+        ["linkText=拍卖", "linkText"],
+        ["css=.fore5 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'拍卖')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://paimai.jd.com/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'拍卖')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6128",
+      "windowTimeout": 2000
+    }, {
+      "id": "6b68e907-562b-41ce-9a08-4f67e5b6f314",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6128}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d9a6479-fc82-4675-98ce-a06756affa6b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "692bedb7-fa46-4d02-a916-0e38eeb19d55",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f502c3cd-cfed-493c-bfff-fd6798a55325",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=京东家电",
+      "targets": [
+        ["linkText=京东家电", "linkText"],
+        ["css=.fore6 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东家电')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jiadian.jd.com/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东家电')]", "xpath:innerText"]
+      ],
+      "value": "41.92706298828125,17"
+    }, {
+      "id": "d4af3be4-74de-450e-ba08-a49198711d85",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=京东家电",
+      "targets": [
+        ["linkText=京东家电", "linkText"],
+        ["css=.fore6 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东家电')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jiadian.jd.com/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东家电')]", "xpath:innerText"]
+      ],
+      "value": "41.92706298828125,17"
+    }, {
+      "id": "f4bfe332-33b5-4f14-933d-f9036cee3701",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=京东家电",
+      "targets": [
+        ["linkText=京东家电", "linkText"],
+        ["css=.fore6 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东家电')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jiadian.jd.com/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东家电')]", "xpath:innerText"]
+      ],
+      "value": "41.92706298828125,17"
+    }, {
+      "id": "48fcedec-7812-4d7b-80d1-156064284076",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=京东家电",
+      "targets": [
+        ["linkText=京东家电", "linkText"],
+        ["css=.fore6 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东家电')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jiadian.jd.com/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东家电')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8098",
+      "windowTimeout": 2000
+    }, {
+      "id": "191e759e-d813-4fbf-a4d5-9259766dd498",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8098}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e63024-5c87-4b89-a382-69213e6fbe95",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe33d1f0-3e73-4938-a70e-3415b39f68d1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8360246c-08a3-4a60-99ac-96eb3ed00a07",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=京东超市",
+      "targets": [
+        ["linkText=京东超市", "linkText"],
+        ["css=.fore7 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东超市')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://chaoshi.jd.com/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东超市')]", "xpath:innerText"]
+      ],
+      "value": "13.92706298828125,24"
+    }, {
+      "id": "39c1359b-3ded-4cfa-9ceb-e361aa20e1b4",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=京东超市",
+      "targets": [
+        ["linkText=京东超市", "linkText"],
+        ["css=.fore7 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东超市')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://chaoshi.jd.com/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东超市')]", "xpath:innerText"]
+      ],
+      "value": "13.92706298828125,24"
+    }, {
+      "id": "472b515c-ae6a-4573-9a9a-c59792ef372c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=京东超市",
+      "targets": [
+        ["linkText=京东超市", "linkText"],
+        ["css=.fore7 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东超市')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://chaoshi.jd.com/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东超市')]", "xpath:innerText"]
+      ],
+      "value": "13.92706298828125,24"
+    }, {
+      "id": "b7cd2437-3c49-4c8d-9ffe-d1d56900be3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=京东超市",
+      "targets": [
+        ["linkText=京东超市", "linkText"],
+        ["css=.fore7 > .navitems-lk", "css:finder"],
+        ["xpath=//a[contains(text(),'京东超市')]", "xpath:link"],
+        ["xpath=//ul[@id='navitems-group1']/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://chaoshi.jd.com/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'京东超市')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6544",
+      "windowTimeout": 2000
+    }, {
+      "id": "015d839e-c1e7-4342-94fe-e48f380313c3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6544}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5b1c816-f3a7-4193-b3f6-3e323ec7b26e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1b44998-2d8b-4c5a-9186-53a64eef70ed",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "116bdc5c-0c59-4f08-8239-5823e685569e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=key",
+      "targets": [
+        ["id=key", "id"],
+        ["css=#key", "css:finder"],
+        ["xpath=//input[@id='key']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "154.66665649414062,16"
+    }, {
+      "id": "e7e2b2fd-2534-43e8-bbcc-c452fa73f059",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=key",
+      "targets": [
+        ["id=key", "id"],
+        ["css=#key", "css:finder"],
+        ["xpath=//input[@id='key']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "154.66665649414062,16"
+    }, {
+      "id": "4214c143-f406-4401-a265-ea15c20615ed",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=key",
+      "targets": [
+        ["id=key", "id"],
+        ["css=#key", "css:finder"],
+        ["xpath=//input[@id='key']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "154.66665649414062,16"
+    }, {
+      "id": "e0bec2c7-056a-4b94-b6a2-8f75ddb7d424",
+      "comment": "",
+      "command": "click",
+      "target": "id=key",
+      "targets": [
+        ["id=key", "id"],
+        ["css=#key", "css:finder"],
+        ["xpath=//input[@id='key']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbd3fb4-b0a2-4122-a706-e810d6f0fa7f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=d_0",
+      "targets": [
+        ["id=d_0", "id"],
+        ["css=#d_0", "css:finder"],
+        ["xpath=//li[@id='d_0']", "xpath:attributes"],
+        ["xpath=//ul[@id='shelper']/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18bf783d-8ee5-4d01-b9c7-4f6d74fdee34",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=d_0",
+      "targets": [
+        ["id=d_0", "id"],
+        ["css=#d_0", "css:finder"],
+        ["xpath=//li[@id='d_0']", "xpath:attributes"],
+        ["xpath=//ul[@id='shelper']/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32ab588-8719-4ee5-a6e5-0f05eb02d38a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#d_0 > .search-item",
+      "targets": [
+        ["css=#d_0 > .search-item", "css:finder"],
+        ["xpath=//li[@id='d_0']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div", "xpath:position"]
+      ],
+      "value": "93.66665649414062,8"
+    }, {
+      "id": "131f84fb-18b2-4cb6-9638-0eee9cd7b919",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#d_0 > .search-item",
+      "targets": [
+        ["css=#d_0 > .search-item", "css:finder"],
+        ["xpath=//li[@id='d_0']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div", "xpath:position"]
+      ],
+      "value": "93.66665649414062,8"
+    }, {
+      "id": "89f7206e-2ff9-4ce7-8542-046f6cf5493d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#d_0 > .search-item",
+      "targets": [
+        ["css=#d_0 > .search-item", "css:finder"],
+        ["xpath=//li[@id='d_0']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div", "xpath:position"]
+      ],
+      "value": "93.66665649414062,8"
+    }, {
+      "id": "f55843ba-ee82-4577-91ba-c5eec1025b70",
+      "comment": "",
+      "command": "click",
+      "target": "css=#d_0 > .search-item",
+      "targets": [
+        ["css=#d_0 > .search-item", "css:finder"],
+        ["xpath=//li[@id='d_0']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76d4034-dc30-49e7-b48c-788f1524a1c4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0bdb4226-7be6-4e1a-b55f-d79575273e35",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.jd.com/"],
+  "plugins": []
+}

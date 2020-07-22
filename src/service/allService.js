@@ -24,7 +24,31 @@ const writeFile = async (filepath, dataObj) => {
     })
 }
 
+// 修改文件后缀名
+const changeFile = async (filepath) => {
+    // console.log(filepath);
+    fs.stat(filepath, function(eror, stats) {
+        if (eror) {
+            console.log('失败');
+        }
+        if (stats.isFile()) {
+            if (filepath.indexOf('.json') != -1) {
+                rename(filepath,filepath.replace('.json','.side',function(){
+                }))
+            }
+        }
+    })
+}
+function rename (oldPath, newPath) {
+    fs.rename(oldPath, newPath, function(err) {
+        if (err) {
+            throw err;
+        }
+    });
+}
+
 module.exports = {
     readFile,
-    writeFile
+    writeFile,
+    changeFile
 }

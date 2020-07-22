@@ -1,4 +1,4 @@
-const { readFile, writeFile } = require('./allService');
+const { readFile, writeFile, changeFile } = require('./allService');
 
 const getService = async (filepath, id) => {
     let dataObj;
@@ -63,6 +63,7 @@ const updateService = async (filepath, req) => {
             dataObj.data[i] = req;
             // 写文件
             if(writeFile(filepath, dataObj)) {
+
                 return req;
             } 
         }
@@ -72,9 +73,10 @@ const updateService = async (filepath, req) => {
 
 const updateAllService = async (filepath, req) => {
     let dataObj = JSON.parse(req.data);
-    console.log(dataObj)
+    //console.log(dataObj)
     // 写文件
     if(writeFile(filepath, dataObj)) {
+        await changeFile(filepath);
         return req;
     } 
     return { "msg": "要修改的内容不存在" };
