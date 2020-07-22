@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 // 引入 service
-const { getService, deleteService, updateService, addService } = require('../service/index');
+const { getService, deleteService, updateService, updateAllService, addService } = require('../service/index');
 
 const getFilePath = (fpath) => {
     //读取 mock 文件夹内文件名及文件路径
@@ -41,6 +41,10 @@ const accessPostCon = async (ctx, next) => {
         ctx.body = result;
     } else if (action == 'add') {
         let result = await addService(filepath, req);
+        ctx.body = result;
+    } else if (action == 'updateAll') {
+        //console.log(req)
+        let result = await updateAllService(filepath, req);
         ctx.body = result;
     }
 }

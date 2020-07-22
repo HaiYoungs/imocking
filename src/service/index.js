@@ -70,6 +70,16 @@ const updateService = async (filepath, req) => {
     return { "msg": "要修改的内容不存在" };
 }
 
+const updateAllService = async (filepath, req) => {
+    let dataObj = JSON.parse(req.data);
+    console.log(dataObj)
+    // 写文件
+    if(writeFile(filepath, dataObj)) {
+        return req;
+    } 
+    return { "msg": "要修改的内容不存在" };
+}
+
 const addService = async (filepath, req) => {
     let dataObj;
     await readFile(filepath).then((data) => {
@@ -91,5 +101,6 @@ module.exports = {
     getService,
     deleteService,
     updateService,
+    updateAllService,
     addService
 }
